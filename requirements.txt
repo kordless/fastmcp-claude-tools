@@ -1,0 +1,14 @@
+# Core dependencies
+anthropic>=0.23.1       # Anthropic Claude API client
+quart>=0.18.4           # Async web framework
+httpx>=0.24.1           # Async HTTP client
+fastmcp>=0.5.0          # Model Control Protocol framework
+
+# Utility dependencies
+python-dotenv>=1.0.0    # Environment variable management
+pydantic>=2.0.0         # Data validation and settings management
+
+# Optional dependencies for memory system (if using)
+# pgvector>=0.2.0       # PostgreSQL vector extension support
+# psycopg>=3.1.12       # PostgreSQL adapter
+# openai>=1.1.0         # For embeddings in memory system
